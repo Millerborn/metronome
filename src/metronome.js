@@ -4,19 +4,7 @@ import click1 from './sounds/click1.wav';
 import click2 from './sounds/click2.wav';
 
 class Metronome extends Component {
-
-  // constructor(props) {
-  //   super(props);
-  //   this.click1 = new Audio(click1);
-
-  //   this.state = {
-  //     playing: false,
-  //     count: 0,
-  //     bpm: 100,
-  //     beatsPerMeasure: 4
-  //   };
-  // }
-
+  
 state = {
   playing: false,
   count: 0,
